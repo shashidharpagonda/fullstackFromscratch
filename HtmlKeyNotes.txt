@@ -1,0 +1,73 @@
+
+Tools
+    -   Visual Studio Code Editor
+        >   
+    -   Extensions: 
+        >   Live Server - To view in browser.
+        >   GitHub Copilot  - Auto suggestions
+        >   Prettier - Code formatte
+
+    -   Web developer chrome extension
+         >   To disable the css in the webpage.
+
+Resources
+    - Figma
+    - Wireframes
+
+Shortcuts
+    -   ! + Enter : To get boiler plate Code.
+    -   shift + alt + downarrow : To copy code
+    -   cmd +d : To change all similar tag
+    -   Shift + Alt + F / Shift + Option + F   :To format code
+
+Tags
+
+    <!DOCTYPE html> : Doc of type html-5
+
+    charset="UTF-8" : To read all the chars in the world 
+
+    meta name="viewport": To render this webpage nicely in Phones and tablets
+
+    div: Logically to group the content of the website. It will make it easier to design later.
+
+    dl: descriptive list        
+        dt: descriptive text #> Like <Ul> or <Ol>
+        dd: descriptive definition #> <li>
+
+Attributes
+    alt:
+        -   To help disable people, it will callout the name defined in alt attribute.
+    type:   
+        > type='i' reversed
+            Eg: <ol type='i' reversed>  #> Ordered list in reversed order
+        > type='text'
+        > type='email'
+        > type='password'
+        > type='number'
+            #> maxLength will work only for type='text'
+            <input type='text' maxLength=10 pattern="\d(10)">
+        > type='submit'
+        > type='date'
+            <input type='date' min='2024-01-01' max='2024-MM-DD'>
+        > type='file'
+            <input type='file' accept='.png, .jpeg'>
+    placeholder: Watermark in the textbox
+
+
+
+
+Semantic Tags:
+    -   Google it to understand : https://www.semrush.com/blog/semantic-html5-guide/
+    -   This tags are introduced in html-5.
+    -   Below are semantic tags.
+            header
+            footer
+            main
+            body
+            head
+            aside
+            section
+            article
+
+Search Engine Optimizations:(SEO)
+    -   
