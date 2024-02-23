@@ -1,1 +1,17 @@
 -   CSS Keynote
+    >   https://fonts.google.com/
+    
+-   
+    >   background-image: url("https://source.unsplash.com/random/800X800");
+
+
+
+-   CSS Selectors
+
+-   Sudoclasses
+
+    hover:
+
+    focus:
+
+-       

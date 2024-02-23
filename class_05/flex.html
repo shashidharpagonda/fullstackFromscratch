@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+     .container{            
+            background-color: tomato;
+            display: flex;
+            border: 2px solid black;
+            width: 600px;
+            height: 500px;            
+            flex-direction: row-start;
+            /* justify-content: Defines how flex items are distributed along the main axis*/
+            justify-content: center; 
+            /* To align items in the cross axis, we can use align items property*/
+            align-items: flex-start;
+            align-content: center; 
+            flex-direction: row;
+        }
+        .box{
+             width: 100px;
+             height: 100px;
+             background-color: #f0f0f0;
+             margin: 10px;
+             text-decoration: underline;
+            }
+
+            .box1{
+                order:4;
+                font-size: 10px;
+            }
+            .box2{
+                order:1;
+                font-size: 24px;;
+                flex-grow: 2; /* It will grow 4x than other boxes */
+            }
+            .box3{
+                order:2;
+                font-size: 18px;
+                 flex-shrink: 4;  /* It will shrink 4x than other boxes */
+            }
+            .box4{
+                order:3;
+                font-size: 12px;
+            }
+
+</style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+        <div class="box box4">Box4</div>    
+    </div>
+</body>
+</html>
