@@ -1,0 +1,40 @@
+
+    FEC: Function Execution Context
+
+Functions
+    -   Functions in javascript are 1st class citizens.
+
+
+Function Expression
+    -   const var= Function(var1, var2){...}
+
+Execution Context
+
+
+Global Execution Context
+
+
+Call Stack
+
+Hoisting
+    -   Accessing the variables or functions before declaration is called Hoisting.
+
+Temporal Dead Zone:
+    -  
+
+    Interview Qos: How does hoisting works for var, let and const.
+    Ans: >  For var, it is hoisting and default value is undefined.
+         >  For let and const, it is hoisted but it is in the 'Temporal dead zone'.So we cannot access it.
+
+         >  var: When we try to access the variable value before declaration, we get undefined.
+
+         >  let and const: When we try to access the let and const value before declaration, we get an error
+            because of the Temporal dead zone. 
+            So, we must access only after declaring it.
+
+Lexical Scoping or Scope Chaining:
+
+    -   Whenever GEC creates, it will have access to the Lexical environment of the parent.
+
+Closures:
+    -   Inner functions remembers the

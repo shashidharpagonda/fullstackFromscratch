@@ -4,7 +4,8 @@
 -   
     >   background-image: url("https://source.unsplash.com/random/800X800");
 
-
+-   Position
+    relative , absolut, fixed, sticky, static,
 
 -   CSS Selectors
 
@@ -14,4 +15,25 @@
 
     focus:
 
--       
+
+-   Specificity Hirerachy:
+
+        There are 4 categories which define the Specificity level of the Selectors.
+
+        1. Inline styles:
+            Eg: <h1 style='color: pink;'>
+
+        2. Ids:
+            Eg: #navbar
+
+        3. Classes, pseudo-classes, attribute-selectors:
+            Eg: .test, :hover, [href]
+
+        4. Elements and pseudo-elements
+            Eg: h1, ::before
+
+
+
+-   CSS concepts
+    >   Parallax effect in the background
+    >   transition properties - For 3D animations

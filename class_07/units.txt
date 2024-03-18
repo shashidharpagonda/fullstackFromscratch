@@ -1,0 +1,29 @@
+Certainly! In CSS (Cascading Style Sheets), 
+there are various units that can be used to specify different types of measurements. 
+Here's a brief overview of the units commonly used in CSS:
+
+Absolute Length Units:
+
+px (Pixels): A pixel is a unit of measurement commonly used in web design. 
+It is a fixed-size unit that represents the smallest unit of measure on a screen.
+in (Inches): Represents inches.
+cm (Centimeters): Represents centimeters.
+mm (Millimeters): Represents millimeters.
+pt (Points): Represents points (1/72 of an inch).
+pc (Picas): Represents picas (1/6 of an inch).
+Relative Length Units:
+
+% (Percentage): Represents a percentage of the parent element.
+em: Relative to the font-size of the element.
+rem: Relative to the font-size of the root element.
+vw (Viewport Width): Represents a percentage of the viewport's width.
+vh (Viewport Height): Represents a percentage of the viewport's height.
+vmin: Represents the smaller value between vw and vh.
+vmax: Represents the larger value between vw and vh.
+Other Units:
+
+ex: Represents the x-height of the current font.
+ch: Represents the width of the "0" (zero) character in the current font.
+fr: Represents a fraction unit used in CSS Grid Layout.
+These units provide flexibility in specifying sizes and distances in CSS, 
+allowing designers to create responsive and visually appealing web layouts.
